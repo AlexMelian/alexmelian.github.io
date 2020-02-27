@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding: 0px;
+background-color: lightgray ;
+}
+div#general{
+
+    background-color:blue ;
+    width: initial;
+    height: initial;
+    
+}
+div#izquierda{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: 270px;
+}
+div#descripcion{
+    background-color: red;
+    float: right;
+    width: 1500px;
+    height: 500px;
+}
+header{
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+}
