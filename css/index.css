@@ -1,0 +1,97 @@
+@media screen and (min-width: 801px)
+{
+    *{
+    margin: 0px;
+    padding: 0px;
+    background:#fafafa ;
+    scrollbar-color: #dddddd #fafafafa;
+    scrollbar-width: thin;
+    border:5px;
+    box-sizing: border-box;
+    }
+    header{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+    }
+    div#general{
+
+        /*backgcround-color:blue ;*/
+        width: initial;
+        height: initial;
+        
+    }
+    section{
+        position: relative;
+        display: flex;
+        
+    }
+    section .contresumen{
+        position: sticky;
+        top: 0;
+        width: 25%;
+        /*min-width: 12%;*/
+        height: 100%;
+    }
+
+    section .texto{
+        position: auto;
+        margin-top: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        margin-bottom: 1vh;
+        width: 97%;
+        height: 97%;
+    }
+
+    section .descripcion{
+        padding: 50px 10px 100px 100px;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {/*      Trabajar con el max        */
+    *{
+        margin: 0px;
+        padding: 0px;
+        background:#fafafa ;
+        border:1vh;
+        box-sizing: border-box;
+        }
+        header{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+        }
+        div#general{
+    
+            /*backgcround-color:blue ;*/
+            width: initial;
+            height: initial;
+            
+        }
+        section{
+            position: relative;
+            height: auto;
+        }
+        section .contresumen{
+            top: 0;
+            width: 100%;
+            /*min-width: 12%;*/
+            height: auto;
+        }
+    
+        section .texto{
+            margin-top: 1vh;
+            margin-left: 1vh;
+            width: auto;
+        }
+    
+        section .descripcion{
+            margin-top: 5vh;
+            width: 90%;
+        }
+}
