@@ -24,19 +24,8 @@
     }
     section{
         position: relative;
-        height: auto;
         display: flex;
     }
-    /*section .contresumen{
-        position: sticky;
-        min-width: 13%;
-        margin-top: 1vh;
-        margin-left: 0.5vh;
-        border-radius: 5px;
-        margin-right: 2vh;
-        height: 100%;
-
-    }*/
     section .contresumen{
         position: sticky;
         top: 0;
@@ -53,11 +42,12 @@
     }
 
     section .descripcion{
-        /*width: auto;
-        height: auto;
-        text-align: left;*/
         padding: 50px 10px 100px 100px;
         width: 80%;
+    }
+    section .estudios{
+        position: fixed;
+        
     }
 }
 
