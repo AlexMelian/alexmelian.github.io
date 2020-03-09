@@ -1,97 +1,56 @@
 @media screen and (min-width: 801px)
 {
     *{
-    margin: 0px;
-    padding: 0px;
-    background:#fafafa ;
-    scrollbar-color: #dddddd #fafafafa;
-    scrollbar-width: thin;
-    border:5px;
-    box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        background-color: #ffffff;
     }
-    header{
+    * a:hover{
+        color:rgb(56, 224, 224);
+    }
+    .sidebar{
         height: 100%;
-        width: 100%;
-        text-align: center;
-        font-size: 60px;
-    }
-    div#general{
-
-        /*backgcround-color:blue ;*/
-        width: initial;
-        height: initial;
-        
-    }
-    section{
-        position: relative;
-        display: flex;
-        
-    }
-    section .contresumen{
-        position: sticky;
+        width: 188px;
+        position:fixed;
+        z-index: 1;
         top: 0;
-        width: 25%;
-        /*min-width: 12%;*/
-        height: 100%;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-left: 3px;
+        border-right: 1px dashed #333;
+        font-size: 15px;
     }
-
-    section .texto{
-        position: auto;
-        margin-top: 1vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
-        margin-bottom: 1vh;
-        width: 97%;
-        height: 97%;
-    }
-
-    section .descripcion{
-        padding: 50px 10px 100px 100px;
-        width: 80%;
-    }
+    /*.sidebar a:hover {
+        color:cyan;
+    }*/
+    .descripcion{
+        margin-left: 200px; 
+        padding: 0px 10px;
+        font-size: 17px;
+      }
     
 }
 
-@media screen and (max-width: 800px) {/*      Trabajar con el max        */
+@media screen and (max-width: 800px) {/*      Trabajar con el max     */   
     *{
         margin: 0px;
         padding: 0px;
-        background:#fafafa ;
-        border:1vh;
-        box-sizing: border-box;
-        }
-        header{
-            height: 100%;
-            width: 100%;
-            text-align: center;
-            font-size: 40px;
-        }
-        div#general{
-    
-            /*backgcround-color:blue ;*/
-            width: initial;
-            height: initial;
-            
-        }
-        section{
-            position: relative;
-            height: auto;
-        }
-        section .contresumen{
-            top: 0;
-            width: 100%;
-            /*min-width: 12%;*/
-            height: auto;
-        }
-    
-        section .texto{
-            margin-top: 1vh;
-            margin-left: 1vh;
-            width: auto;
-        }
-    
-        section .descripcion{
-            margin-top: 5vh;
-            width: 90%;
-        }
+    }
+    .media{
+        line-height: 20px;
+    }
+    .sidebar{
+        border-bottom: 1px dashed #333;
+
+
+    }
+    .about{
+        border-top: 1px dashed #333;
+        border-bottom: 1px dashed #333;
+    }
+    .studies{
+        border-bottom: 1px dashed #333;
+    }
 }
