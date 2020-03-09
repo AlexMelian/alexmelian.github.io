@@ -22,32 +22,26 @@
         border-right: 1px dashed #333;
         font-size: 15px;
     }
-    /*.sidebar a:hover {
-        color:cyan;
-    }*/
     .descripcion{
         margin-left: 200px; 
         padding: 0px 10px;
         font-size: 17px;
       }
-    
 }
 
 @media screen and (max-width: 800px) {/*      Trabajar con el max     */   
     *{
         margin: 0px;
         padding: 0px;
+        padding-left: 1px;
     }
     .media{
         line-height: 20px;
     }
     .sidebar{
         border-bottom: 1px dashed #333;
-
-
     }
     .about{
-        /*border-top: 1px dashed #333;*/
         border-bottom: 1px dashed #333;
     }
     .studies{
