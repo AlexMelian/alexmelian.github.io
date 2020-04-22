@@ -1,5 +1,5 @@
-x[1].style.opacity = "0.5"
-x[0].style.opacity = "1"
+x[1].style.opacity = "0.5";
+x[0].style.opacity = "1";
 
 function currentDiv(n) {
   var x = document.getElementsByClassName("demo");
