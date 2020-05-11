@@ -1,124 +1,63 @@
-@media screen and (min-width: 801px)
-{
-    *{
-        margin: 0px;
-        padding: 0px;
-        background-color: #23282B;
-        color: aliceblue;
-    }
-    * a:hover{
-        color:#3B83BD;
-    }
-    .sidebar{
-        height: 100%;
-        width: 188px;
-        position:fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        overflow-x: hidden;
-        padding-top: 20px;
-        padding-right: 15px;
-        padding-left: 3px;
-        border-right: 1px dashed #3E5F8A;
-        font-size: 14px;
-    }
-    .sidebar:hover{
-        box-shadow: 0px 0px 2px 1px #2271B3;
-    }
-    .descripcion{
-        margin-left: 200px; 
-        padding: 0px 10px;
-        font-size: 17px;
-    }
-    .studies:hover{
-        box-shadow: 0px 0px 2px 1px #2271B3;
-    }
-    .project:hover{
-        box-shadow: 0px 0px 2px 1px #2271B3;
-    }
-    .turnLed{
-        display: flex;
-    }
-    .imgTurnled{
-        width: 40%;
-        height: 40%;
-    }
-    .selectImg{
-        display: flex;
-        margin-top: 5px;
-        position: sticky;
-    }
-    .descTurnled{
-        margin-left: 5px;
-    }
+body{
+  background-color:rgb(255, 255, 255) ;
+  margin: 0px;
+  padding: 0px;
 }
 
-@media screen and (max-width: 800px) {/*      Trabajar con el max     */   
-    /*{
-        margin: 0px;
-        padding: 0px;
-        padding-left: 1px;
-        background-color: #23282B;
-        color: aliceblue;
-    }
-    .media{
-        line-height: 20px;
-    }
-    .sidebar{
-        border-bottom: 1px dashed #3E5F8A;
-    }
-    .about{
-        border-bottom: 1px dashed #3E5F8A;
-    }
-    .studies{
-        border-bottom: 1px dashed #3E5F8A;
-    }
-    .turnLed{
-        display: flex;
-    }
-    .imgTurnled{
-        width: 40%;
-        height: 40%;
-    }
-    .selectImg{
-        display: flex;
-        margin-top: 5px;
-        position: sticky;
-    }
-    .descTurnled{
-        margin-left: 5px;
-    }*/
-    *{
-        margin: 0px;
-        padding: 0px;
-        background-color: #23282B;
-        color: aliceblue;
-    }
-    .sidebar{
-        border-bottom: 1px dashed #3E5F8A;
-        padding: 0px 10px;
-    }
-    .about{
-        border-bottom: 1px dashed #3E5F8A;
-    }
-    .studies{
-        border-bottom: 1px dashed #3E5F8A;
-    }
-    .descripcion{
-        padding: 0px 10px;
-        font-size: 17px;
-    }
-    .imgTurnled{
-        width: 100%;
-        height: 100%;
-    }
-    .selectImg{
-        display: flex;
-        margin-top: 5px;
-        position: sticky;
-    }
-    .descTurnled{
-        margin-left: 5px;
-    }
+.welcome{
+    background-color: #000;
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 310px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    margin: 2%;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .aboutme{
+    text-align: center;
+    border-bottom: 1px solid #000000;
+  }
+  .portfoliosector{
+    border-radius: 20px;
+    padding: 5px;
+    background: black;
+    color: white;
+  }
+  .studies{
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    margin: 0px;
+    padding: 0px;
+  }
