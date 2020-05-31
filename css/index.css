@@ -35,8 +35,10 @@ body{
     width: 100%;
     font-size: 18px;
   }
-  
- .card a {
+  .iconstitle i{
+   margin: 3px;
+ }
+  .card a {
     text-decoration: none;
     font-size: 22px;
     color: black;
