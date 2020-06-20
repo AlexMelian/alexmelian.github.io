@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta http-equiv="Content type" content="text/html;harset=UTF-8">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <!--Descripciones-->
     <meta name="author" content="Alexander Melian">
     <meta name="keywords"
@@ -14,7 +15,6 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="./icons/alexander.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="javascript/index.js"></script>
     <!--analytics-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159854771-1"></script>
@@ -25,41 +25,49 @@
         gtag('config', 'UA-159854771-1');
     </script>
 </head>
+
 <body>
     <div class="welcome">
         <br><br>
         <div class="card">
             <br>
-            <img src="./icons/perfil.jpg" alt="Alexander">
+            <img src="https://imgur.com/qgG1seb.jpg" alt="Perfil picture">
             <h1>Alexander Melian</h1>
             <p class="title">Software development</p>
             <div class="iconstitle" style="margin: 15px;">
-                <a target="_blank" href="https://www.youtube.com/channel/UCatILYkOh9a72u9QHJXMIkQ"><i class="fab fa-youtube"></i></a>
-                <a target="_blank" href="https://twitter.com/AlexanderMeli4n"><i class="fab fa-twitter"></i></a>  
-                <a target="_blank" href="https://www.linkedin.com/in/alexandermelian/"><i class="fab fa-linkedin"></i></a>  
-                <a target="_blank" href="https://www.facebook.com/AlexanderDavidMelian/"><i class="fab fa-facebook"></i></a> 
-                <a target="_blank" href="https://github.com/AlexanderMelian"><i class="fab fa-github"></i></a> 
-                <a target="_blank" href="https://www.hackerrank.com/profile/alexandermelian"><i class="fab fa-hackerrank"></i></a> 
+                <a target="_blank" href="https://www.youtube.com/channel/UCatILYkOh9a72u9QHJXMIkQ"><i
+                        class="fab fa-youtube"></i></a>
+                <a target="_blank" href="https://twitter.com/AlexanderMeli4n"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/alexandermelian/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.facebook.com/AlexanderDavidMelian/"><i
+                        class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://github.com/AlexanderMelian"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.hackerrank.com/profile/alexandermelian"><i
+                        class="fab fa-hackerrank"></i></a>
             </div>
             <p>alexandermelian@outlook.com</p>
             <br>
         </div>
         <br><br>
     </div>
-    <div id = "about" class="aboutme">
+
+    <div id="about" class="aboutme">
         <h1>
             About Me
         </h1>
         <p>
-            Hi, welcome to my portfolio, my full name is Alexander David Melian, in this moment
-            i'm studing "Licenciatura en informática" in "Universidad Nacional Del Oeste", 
+            Hello, welcome to my portfolio, my full name is Alexander David Melian, at this moment
+            i'm studying "degree in computer science" at "Universidad Nacional Del Oeste",
             i live in Merlo, is located in Buenos Aires, Argentina.
             <br>
-            I'm a software development and 3D artist, i want work and learn... My dream is work in the IA sector...
+            I want to work in the software development sector for learn... My dream is work in the IA sector...
         </p>
         <br>
     </div>
+
     <!-- Studies -->
+    
     <div id="study" class="studies">
         <h1>Studies sector</h1>
         <h3>Presential</h3>
@@ -70,13 +78,46 @@
         <p>
             Training itinerary:
             (Extracurricular course of the secondary)<br>
-            <b>-First year-</b>  Repair, assembly and maintenance of pc - office<br>
-           <b>-Second year-</b>  Programming in C and C# - HTML and css<br>
-            <b>-Third year-</b>  Programming in Arduino UNO - Develop apps in AppInventor for connect the phone with Arduino
+            <b>-First year-</b> Repair, assembly and maintenance of pc - office<br>
+            <b>-Second year-</b> Programming in C and C# - HTML and css<br>
+            <b>-Third year-</b> Programming in Arduino UNO - Develop apps in AppInventor for connect the phone with
+            Arduino
         </p>
         <p>University(in progress):<br>
             -Universidad Nacional Del Oeste, Career: Degree in computer science
         </p>
         <br>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="project" class="projects">
+        <h1>Projects sector</h1>
+        <div class="project1">
+            <h3>Conect Arduino to the lan red</h3>
+            <div class="projecttext">
+                In this project i conected Arduino to the lan network using Nodejs, Express and Johnny-five. Thanks to
+                this, we can manage Arduino using a browser.
+                <br>I can switch on or switch off a led with the buttons, or can activate automatic mode...
+                <a href="https://github.com/AlexanderMelian/Handle-arduino-from-telegram" target="_blank">Link
+                    to the project</a>
+                <br>
+                Video in spanish -> <a href="https://www.youtube.com/watch?v=4avAr_N7N7E"
+                    target="_blank">YoutubeVideo</a>
+            </div>
+        </div>
+        <br>
+        <div class="project1">
+            <h3>Handle arduino from telegram</h3>
+            <div class="projecttext">
+                In this project i conected Arduino to telegram bot using Nodejs, Telegraf and Johnny-five.
+                <br>I can switch on or switch off a led sending messages to the bot
+                <a href="https://github.com/AlexMelian/Connect-arduino-to-the-lan-network" target="_blank">Link
+                    to the project</a>
+                <br>
+                Video in spanish -> <a href="https://www.youtube.com/watch?v=4avAr_N7N7E"
+                    target="_blank">YoutubeVideo</a>
+            </div>
+        </div>
     </div>
 </body>

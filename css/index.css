@@ -58,8 +58,20 @@ body{
     color: white;
   }
   .studies{
-    text-align: center;
     border-bottom: 1px solid #000000;
     margin: 0px;
     padding: 0px;
   }
+  .studies h1{
+    text-align: center;
+  }
+  .projects{
+    border-bottom: 1px solid #000000;
+    margin: 0px;
+    padding: 0px;
+  }
+  .projects h1{
+    text-align: center;
+  }
+
+  /*-----------------------------------------------------------------------------------*/
