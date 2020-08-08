@@ -70,6 +70,37 @@ body{
     margin: 0px;
     padding: 0px;
   }
+  .row{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  .semi-card {
+    flex: 1;
+    display: table-cell;
+    padding: 15px;
+    margin: 50px;
+    width: 260px;
+    /*border: 3px solid blue;*/
+    background-image: linear-gradient(purple, purple),
+    linear-gradient(purple, purple),
+    linear-gradient(purple, purple),
+    linear-gradient(purple, purple),
+    linear-gradient(rgb(221, 220, 220), rgb(221, 220, 220));
+    background-repeat: no-repeat;
+    background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+  }
+  .semi-card p {
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+  }  
+  .semi-card h2 {
+      font-size: 14px;
+      line-height: 1.3rem;
+  }
   .projects h1{
     text-align: center;
   }
