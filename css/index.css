@@ -1,3 +1,4 @@
+@media only screen and (min-width: 901px) {
 body{
   background-color:rgb(255, 255, 255) ;
   margin: 0px;
@@ -124,4 +125,135 @@ body{
   .projects h1{
     text-align: center;
   }
+}
   /*-----------------------------------------------------------------------------------*/
+
+
+
+  @media only screen and (max-width: 900px) {
+    body{
+      background-color:rgb(255, 255, 255) ;
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    .welcome{
+        background-color: #000;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 310px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        border-radius: 5px;
+        background-color: whitesmoke;
+      }
+      
+      .title {
+        color: grey;
+        font-size: 18px;
+        margin: 2%;
+      }
+    
+      .myButton {
+        background-color:#000000;
+        border-radius:10px;
+        border:1px solid #ffffff;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:19px;
+        padding:12px 40px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #000000;
+      }
+      .myButton:hover {
+        background-color:#7a7a7a;
+      }
+      .myButton:active {
+        position:relative;
+        top:1px;
+      }
+      .myButton a{
+        color: white;
+      }
+    
+      .iconstitle i{
+       margin: 3px;
+       text-decoration: none;
+       font-size: 22px;
+       color: black;
+      }
+      
+      button:hover, a:hover {
+        opacity: 0.7;
+      }
+      .aboutme{
+        text-align: center;
+        border-bottom: 1px solid #000000;
+      }
+      .portfoliosector{
+        border-radius: 20px;
+        padding: 5px;
+        background: black;
+        color: white;
+      }
+      .studies{
+        border-bottom: 1px solid #000000;
+        margin: auto;
+        padding: auto;
+      }
+      .studies h1{
+        text-align: center;
+      }
+    
+      .StudiesSeparated{
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+      }
+      .std{
+        margin: 15px;
+        margin-bottom: 50px;
+      }
+      .projects{
+        border-bottom: 1px solid #000000;
+        margin: 0px;
+        padding: 0px;
+      }
+      .row{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+      }
+      .semi-card {
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 260px;
+        /*border: 3px solid blue;*/
+        background-image: linear-gradient(black, black),
+        linear-gradient(black, black),
+        linear-gradient(black, black),
+        linear-gradient(black,black),
+        linear-gradient(lightgray, lightgray);
+        background-repeat: no-repeat;
+        background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+        background-position: left bottom, left bottom, right top, right top, 4px 4px;
+      }
+      .semi-card p {
+          font-size: 13px;
+          margin-bottom: 10px;
+      }  
+      .semi-card h2 {
+          font-size: 14px;
+          line-height: 1.3rem;
+      }
+      .projects h1{
+        text-align: center;
+      }
+    
+  }
