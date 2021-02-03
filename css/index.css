@@ -1,6 +1,71 @@
+:root {
+  --back_color: #E7DFDD;
+  --text_color: #0E0816;
+  --line-color: #0E0000;
+  --linear-gradiercolor-1 :#000000;
+  --linear-gradiercolor-2: #939393;
+}
+
+[data-theme="dark"]{
+  --text_color: #E7DFDD;
+  --back_color: #0E0816;
+  --line-color: #7a7a7a;
+  --linear-gradiercolor-2 :#943f83;
+  --linear-gradiercolor-1: #939393;
+}
+.theme-switch {
+  border-radius: 50%;
+  bottom: 18pt;
+  display: inline;
+  height: 25pt;
+  padding: 0px;
+  position: fixed;
+  right: 68pt;
+  top: auto;
+  width: 25pt;
+}
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-switch-wrapper em {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.theme-switch input {
+  display: none;
+}
+.slider {
+  background-color: rgb(0, 0, 0);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 34px;
+}
+.slider:before {
+  background-color: rgb(255, 255, 255);
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  width: 26px;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #ffffff;
+}
+input:checked + .slider::before {
+  background-color: #000000;
+}
 @media only screen and (min-width: 901px) {
 body{
-  background-color:rgb(255, 255, 255) ;
+  /*background-color:rgb(255, 255, 255) ;*/
+  background-color: var(--back_color);
+  color: var(--text_color);
   margin: 0px;
   padding: 0px;
 }
@@ -16,6 +81,7 @@ body{
     font-family: arial;
     border-radius: 5px;
     background-color: whitesmoke;
+    color: black;
   }
   
   .title {
@@ -60,7 +126,7 @@ body{
   }
   .aboutme{
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid var(--line-color);
   }
   .portfoliosector{
     border-radius: 20px;
@@ -69,7 +135,7 @@ body{
     color: white;
   }
   .studies{
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid var(--line-color);
     margin: auto;
     padding: auto;
   }
@@ -105,11 +171,11 @@ body{
     margin: 50px;
     width: 260px;
     /*border: 3px solid blue;*/
-    background-image: linear-gradient(black, black),
-    linear-gradient(black, black),
-    linear-gradient(black, black),
-    linear-gradient(black,black),
-    linear-gradient(lightgray, lightgray);
+    background-image: linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1),var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-2), var(--linear-gradiercolor-2));
     background-repeat: no-repeat;
     background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
     background-position: left bottom, left bottom, right top, right top, 4px 4px;
@@ -125,12 +191,14 @@ body{
   .projects h1{
     text-align: center;
   }
+
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 900px) {
   body{
-    background-color:rgb(255, 255, 255);
+    background-color:var(--back_color);
+    color: var(--text_color);
     margin: 0px;
     padding: 0px;
   }
@@ -146,6 +214,7 @@ body{
       font-family: arial;
       border-radius: 5px;
       background-color: whitesmoke;
+      color: black;
     }
     
     .title {
@@ -190,7 +259,7 @@ body{
     }
     .aboutme{
       text-align: center;
-      border-bottom: 1px solid #000000;
+      border-bottom: 1px solid var(--line-color);
     }
     .portfoliosector{
       border-radius: 20px;
@@ -199,7 +268,7 @@ body{
       color: white;
     }
     .studies{
-      border-bottom: 1px solid #000000;
+      border-bottom: 1px solid var(--line-color);
       margin: auto;
       padding: auto;
     }
@@ -217,7 +286,7 @@ body{
       margin-bottom: 50px;
     }
     .projects{
-      border-bottom: 1px solid #000000;
+      border-bottom: 1px solid var(--line-color);
       margin: 0px;
       padding: 0px;
     }
@@ -233,11 +302,11 @@ body{
       margin-bottom: 20px;
       width: 260px;
       /*border: 3px solid blue;*/
-      background-image: linear-gradient(black, black),
-      linear-gradient(black, black),
-      linear-gradient(black, black),
-      linear-gradient(black,black),
-      linear-gradient(lightgray, lightgray);
+      background-image: linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1), var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-1),var(--linear-gradiercolor-1)),
+    linear-gradient(var(--linear-gradiercolor-2), var(--linear-gradiercolor-2));
       background-repeat: no-repeat;
       background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
       background-position: left bottom, left bottom, right top, right top, 4px 4px;
@@ -253,5 +322,15 @@ body{
     .projects h1{
       text-align: center;
     }
-  
+    .theme-switch {
+      border-radius: 50%;
+      bottom: 18pt;
+      display: inline;
+      height: 25pt;
+      padding: 0px;
+      position: fixed;
+      right: 28pt;
+      top: auto;
+      width: 25pt;
+    }
 }
