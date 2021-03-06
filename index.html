@@ -29,64 +29,80 @@
 
 </head>
 
+
 <body>
-    <div class="welcome">
-        <br><br>
-        <div class="card">
-            <br>
-            <img src="https://imgur.com/qgG1seb.jpg" alt="Perfil picture">
-            <h1>Alexander Melian</h1>
-            <p class="title">Software development</p>
+    <div class = "left">
+        <img src="https://imgur.com/qgG1seb.jpg" alt="Perfil picture">
+        <h1>Alexander Melian</h1>
+        <h2 class="title">Software development</p>
+            <p style="font-size: smaller;">alexandermelian@outlook.com</p>
+            <p style="font-size: smaller;">+54 91158845700</p>
             <div class="iconstitle" style="margin: 15px;">
-                <a target="_blank" href="https://www.youtube.com/channel/UCatILYkOh9a72u9QHJXMIkQ"><i
-                        class="fab fa-youtube-square" title="Youtube"></i></a>
-                <a target="_blank" href="https://twitter.com/AlexanderMeli4n"><i class="fab fa-twitter-square"
-                        title="Twitter"></i></a>
-                <a target="_blank" href="https://linkedin.com/in/alexandermelian"><i class="fab fa-linkedin"
-                        title="Linkedin"></i></a>
-                <a target="_blank" href="https://www.facebook.com/AlexanderDavidMelian/"><i
-                        class="fab fa-facebook-square" title="Facebook"></i></a>
-                <a target="_blank" href="https://github.com/AlexanderMelian"><i class="fab fa-github-square"
-                        title="Github"></i></a>
-                <a target="_blank" href="https://www.hackerrank.com/profile/alexandermelian"><i
-                        class="fab fa-hackerrank" title="Hacker Rank"></i></a>
-            </div>
-            <p>alexandermelian(at)outlook.com</p>
-            <a target="_blank" href="https://drive.google.com/file/d/1k0XVwctn5xcwwHeH0zyfQE2yHO-kiEj2/view?usp=sharing"
+            <a target="_blank" href="https://www.youtube.com/channel/UCatILYkOh9a72u9QHJXMIkQ"><i
+                    class="fab fa-youtube-square" title="Youtube"></i></a>
+            <a target="_blank" href="https://twitter.com/AlexanderMeli4n"><i class="fab fa-twitter-square"
+                    title="Twitter"></i></a>
+            <a target="_blank" href="https://linkedin.com/in/alexandermelian"><i class="fab fa-linkedin"
+                    title="Linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/AlexanderDavidMelian/"><i
+                    class="fab fa-facebook-square" title="Facebook"></i></a>
+            <a target="_blank" href="https://github.com/AlexanderMelian"><i class="fab fa-github-square"
+                    title="Github"></i></a>
+
+        </div>
+        
+        <a target="_blank" href="https://drive.google.com/file/d/1k0XVwctn5xcwwHeH0zyfQE2yHO-kiEj2/view?usp=sharing"
                 class="myButton">Curriculum</a>
             <br><br>
+        <div class="contents">
+            <h3>Contents</h3>
+            <a href="#aboutme"><h4>About Me</h4></a>
+            <a href="#study"><h4>Studies Sector</h4></a>            
+            <a href="#projects"><h4>Projects</h4></a>
+            <a href="#skills"><h4>Skills</h4></a>
+            <br>
         </div>
         <br><br>
+        <br><br>
+        <p>Day/Night Mode</p>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <!-- <span class="slider round"></span> -->
+                <div class="slider round">
+                    <svgOfSun />
+                    <svgOfMoon />
+                    </div>
+            </label>
+        </div>
     </div>
 
-    <div id="about" class="aboutme">
-        <h1>
-            About Me
-        </h1>
-        <p>
-            Hello, welcome to my portfolio, my full name is Alexander David Melian, at this moment
-            i'm studying "Computer science degree" at "Universidad Nacional Del Oeste",
-            i live in Merlo, is located in Buenos Aires, Argentina.
+
+
+
+    <div class = "main">
+        <div id="aboutme">
+            <h1>
+                About Me
+            </h1>
+            <p>
+                Hello, welcome to my portfolio, my full name is Alexander David Melian, im from Buenos Aires, Argentina, at this moment
+                i'm studying "Computer science degree" at "Universidad Nacional Del Oeste",
+                I try to learn every moment, i like backend, artificial intelligence, big data, devops, informatic security
+                <br><br>
+                I am mainly studying and working in projects about data bases and basic applications with data bases.
+            </p>
+
             <br><br>
-            I am mainly studying and working in projects about data bases and basic applications with data bases.
-        </p>
-        <br>
-    </div>
+            </div>
 
-    <!-- Studies -->
 
-    <div id="study" class="studies">
+ <div id="study" class="studies">
         <h1>Studies sector</h1>
-        <div class="StudiesSeparated">
+        <div class="row">
             <div class="std">
-
-                <h3>Presential</h3>
                 <p>
-                    Completed secondary:<br>
-                    -Escuela de educacion media N°5 oriented to economy and administration
-                </p>
-                <p>
-                    Training itinerary:
+                    <h2>Training itinerary:</h2>
                     (Extracurricular course of the secondary)<br>
                     <b>-First year-</b> Repair, assembly and maintenance of pc - office<br>
                     <b>-Second year-</b> Programming in C and C# - HTML and css<br>
@@ -94,28 +110,33 @@
                     with
                     Arduino
                 </p>
-                <p>University(in progress):<br>
+                <br>
+                <h2>University(in progress):</h2>
                     -<a href="http://www.uno.edu.ar" target="_blank">Universidad Nacional Del Oeste</a> - Career:
                     Computer
                     science degree
                 </p>
             </div>
             <div class="std">
-                <h3>Online</h3>
-                <p>Courses</p>
-                <li>Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</li>
-                <li>Scientific Computing with Python</li>
-                <li>Foundaments of DataBases </li>
-                <li>SQL and MySQL</li>
-                <li>Foundaments Of SQL</li>
-                <li>Git and GitHub</li>
-                <li>Foundaments of Node.js</li>
-                <li>Foundaments of software engineering</li>
+                <p>
+                    <h2>Courses:</h2><br>
+                    Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning<br>
+                    Managing Big Data with MySQL<br>
+                    Scientific Computing with Python<br>
+                    Foundaments of DataBases <br>
+                    SQL and MySQL<br>
+                    Foundaments Of SQL<br>
+                    Git and GitHub<br>
+                    Foundaments of Node.js<br>
+                    Foundaments of software engineering<br>
+                    Linux server administration<br>
+                    Foundaments of GO<br>
+                    Foundaments of Pentesting<br>
+                    Java SE<br>
+                </p>
             </div>
         </div>
     </div>
-
-    <!-- Projects -->
 
     <div id="project" class="projects">
         <h1>Projects sector</h1>
@@ -162,7 +183,7 @@
             <div class="semi-card">
                 <h2>Simple login and register</h2>
                 <p>
-                    In this project coded in <b>python</b>, you can register and login with username and password, both
+                    In this project coded in <b>Python</b>, you can register and login with username and password, both
                     are saved in <b>MySQL</b>
                     <br><br>
                     <a href="https://github.com/AlexanderMelian/PassMysqlPython" target="_blank">Link
@@ -181,16 +202,7 @@
         </div>
         
     </div>
-    <br>
-    <div class="theme-switch-wrapper">
-        <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox" />
-            <div class="slider">
-            <svgOfSun />
-            <svgOfMoon />
-            </div>
-        </label>
-        </div>
-    <br>
+    </div>
+    
     <script src="/javascript/index.js"></script>
 </body>
