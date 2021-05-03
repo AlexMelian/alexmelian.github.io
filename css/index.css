@@ -282,6 +282,9 @@ body{
   .PerfilPicture{
     width: 8rem;
   }
+  .myButton {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-height: 770px) and (min-width: 1000px){
@@ -290,5 +293,20 @@ body{
   }
   .PerfilPicture{
     width: 7rem;
+  }
+  .myButton {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-height: 650px) and (min-width: 1000px){
+  .left{
+    font-size: 10px;
+  }
+  .PerfilPicture{
+    width: 6.5rem;
+  }
+  .myButton {
+    font-size: 15px;
   }
 }
