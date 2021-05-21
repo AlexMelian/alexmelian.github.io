@@ -1,0 +1,8 @@
+ImageBackground - Background
+#161d25
+
+ImageBackground - TextColor
+#008c8c
+
+ImageBackground - TextBackground
+#a6a9ac
